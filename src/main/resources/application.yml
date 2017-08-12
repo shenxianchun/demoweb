@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgril
+    username: root
+    password: Sxc323556
+  jpa:
+    hibernate:
+      ddl-auto: update #表不存在就创建，存在就更新
+      show-sql: true
